@@ -14,7 +14,8 @@ public class NumerosAleatorios {
         while(numero !=int_random){
             System.out.println("Tente novamente: ");
         numero = teclado.nextInt();
-        }
+        } 
+        System.out.println("Você acertou!");
         teclado.close();
     }
 }
