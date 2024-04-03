@@ -227,4 +227,6 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
+!**/libs/*.jar
+
 # End of https://www.toptal.com/developers/gitignore/api/java,linux,windows,visualstudiocode,intellij,gradle
